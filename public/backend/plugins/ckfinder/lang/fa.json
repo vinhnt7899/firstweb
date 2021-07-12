@@ -1,0 +1,172 @@
+{
+	"appTitle": "CKFinder",
+	"dir": "rtl",
+	"langCode": "fa",
+	"common": {
+		"abort": "توقف",
+		"cancel": "لغو",
+		"choose": "انتخاب",
+		"close": "بستن",
+		"copy": "رونوشت",
+		"delete": "حذف",
+		"download": "دانلود",
+		"edit": "ویرایش",
+		"maximize": "بیشینه",
+		"messageTitle": "اطلاعات",
+		"minimize": "کمینه",
+		"move": "انتقال",
+		"newNameDialogTitle": "نام جدید",
+		"ok": "لغو",
+		"pleaseWait": "لطفا صبر کنید.",
+		"rememberDecision": "انتخاب من را بیاد داشته باش",
+		"rename": "تغییر نام",
+		"showMore": "نمایش بیشتر",
+		"skip": "نادیده گرفتن",
+		"upload": "آپلود",
+		"view": "نمایش"
+	},
+	"units": {
+		"dateFormat": "yyyy/mm/dd h:MM aa",
+		"dateAmPm": [
+			"ق.ظ",
+			"ب.ظ"
+		],
+		"kb": "{size}KB",
+		"mb": "{size}MB",
+		"gb": "{size}GB",
+		"sizePerSecond": "{size}/s",
+		"pixelShort": "px"
+	},
+	"files": {
+		"autoRename": "تغییر نام خودکار",
+		"countMany": "{count} فایل",
+		"countOne": "یک فایل",
+		"deleteConfirmation": "آیا شما مطمئن هستید که می‌خواهید فایل‌های {count} را پاک کنید؟",
+		"fileDeleteConfirmation": "آیا اطمینان دارید که قصد حذف نمودن فایل \"{name}\" را دارید؟",
+		"fileRenameExtensionConfirmation": "آیا اطمینان دارید که قصد تغییر نام پسوند این فایل را دارید؟ ممکن است فایل غیر قابل استفاده شود",
+		"fileRenameLabel": "لطفا نام جدید فایل را درج کنید: ",
+		"filesPaneTitle": "چارچوب فایل‌ها",
+		"filesRefresh": "درحال تازه‌سازی فایل‌ها",
+		"filterPlaceholder": "صافی",
+		"gettingFileData": "درحال گرفتن اطلاعات فایل.",
+		"overwrite": "رونویسی",
+		"loadingFilesPane": {
+			"title": "درحال بارگیری...",
+			"text": "لطفا صبر کنید، فایل‌ها درحال بارگیری هستند."
+		},
+		"emptyFilesPane": {
+			"title": "پوشه خالی است.",
+			"text": "از دکمه‌ی <strong>آپلود</strong> استفاده کنید یا فایل‌هایتان را <strong>بگیرید و </strong> اینجا <strong>بکشید</strong>."
+		},
+		"filterFilesEmpty": {
+			"title": "چیزی پیدا نشد.",
+			"text": "لطفا با معیار دیگری تلاش به جستجو کنید."
+		}
+	},
+	"folders": {
+		"deleteConfirmation": "آیا اطمینان دارید که قصد حذف کردن پوشه \"{name}\" را دارید؟",
+		"destinationFolder": "پوشه‌ی مقصد",
+		"newNameLabel": "لطفا نام پوشه جدید را وارد کنید: ",
+		"newSubfolder": "زیرپوشه جدید",
+		"renameDialogTitle": "تغییرنام پوشه",
+		"treeTitle": "درخت پوشه‌ها"
+	},
+	"copy": {
+		"dropMenuItem": "کپی فایل به اینجا",
+		"errorDialogTitle": "فایل‌هایی که نمی‌توانند رونوشت‌گیری شوند:",
+		"manyFilesDialogTitle": "رونوشت {count} فایل به...",
+		"manyFilesWait": "درحال رونوشت‌گیری از {count} فایل.",
+		"oneFileDialogTitle": "رونوشت فایل به...",
+		"oneFileWait": "درحال رونوشت‌گیری از فایل،",
+		"operationLabel": "رونوشت‌گیری فایل‌ها",
+		"operationSummary": "تعداد فایل‌های رونوشت گرفته‌شده: {count}."
+	},
+	"move": {
+		"dropMenuItem": "انتقال فایل به اینجا",
+		"errorDialogTitle": "فایل‌هایی که نمی‌توانند منتقل شوند:",
+		"manyFilesDialogTitle": "انتقال {count} فایل به...",
+		"manyFilesWait": "درحال انتقال {count} فایل.",
+		"oneFileDialogTitle": "انتقال فایل به...",
+		"oneFileWait": "درحال انتقال فایل.",
+		"operationLabel": "انتقال فایل‌ها",
+		"operationSummary": "تعداد فایل‌های منتقل شده: {count}."
+	},
+	"upload": {
+		"addFiles": "افزودن فایلها",
+		"bytesCountProgress": "({bytesUploaded} از {bytesTotal})",
+		"details": "توضیحات",
+		"filesCountProgress": "{filesUploaded} از {filesTotal}",
+		"progressLabel": "درحال ارسال، لطفا صبر کنید...",
+		"progressMessage": "درحال آپلود...",
+		"selectFileLabel": "انتخاب فابل برای آپلود",
+		"selectFiles": "فایل‌ها را برای آپلود انتخاب کنید",
+		"success": "آپلود به پایان رسید!",
+		"summary": "فایل‌های آپلود شده: {count}"
+	},
+	"settings": {
+		"display": "نمایش:",
+		"displayDate": "تاریخ",
+		"displayName": "نام فایل",
+		"displaySize": "اندازه فایل",
+		"sortAscending": "صعودی",
+		"sortBy": "مرتب‌سازی براساس",
+		"sortByOrder": "مرتب‌سازی",
+		"sortDescending": "نزولی",
+		"thumbnailSize": "اندازه تصویر بندانگشتی",
+		"title": "تنظیمات",
+		"viewType": "مشاهده",
+		"viewTypeCompact": "جمع و جور",
+		"viewTypeList": "لیست",
+		"viewTypeThumbnails": "بند‌انگشتی‌ها"
+	},
+	"errors": {
+		"codes": {
+			"10": "دستور نامعتبر.",
+			"11": "نوع منبع در درخواست تعریف نشده است.",
+			"12": "نوع منبع درخواست شده معتبر نیست.",
+			"13": "پیکربندی فایل اتصال نامعتبر است.",
+			"14": "افزونه‌ی اتصال نامعتبر: {pluginName}.",
+			"102": "نام فایل یا پوشه نامعتبر است.",
+			"103": "امکان کامل کردن این درخواست بخاطر محدودیت اختیارات وجود ندارد.",
+			"104": "امکان کامل کردن این درخواست بخاطر محدودیت دسترسی وجود ندارد.",
+			"105": "پسوند فایل نامعتبر  است.",
+			"109": "درخواست نامعتبر است.",
+			"110": "خطای ناشناخته.",
+			"111": "انجام این عمل به دلیل اندازه‌ی فایل ممکن نیست.",
+			"115": "فایل یا پوشه ای با این نام وجود دارد",
+			"116": "پوشه یافت نشد. لطفا بروزرسانی کرده و مجددا تلاش کنید.",
+			"117": "فایل یافت نشد. لطفا فهرست فایلها را بروزرسانی کرده و مجددا تلاش کنید.",
+			"118": "منبع و مقصد مسیر یکی است.",
+			"201": "یک فایل با همان نام از قبل موجود است. فایل آپلود شده به \"{name}\" تغییر نام یافت.",
+			"202": "فایل نامعتبر",
+			"203": "فایل نامعتبر. اندازه فایل بیش از حد بزرگ است.",
+			"204": "فایل آپلود شده خراب است.",
+			"205": "هیچ پوشه موقتی برای آپلود فایل در سرور موجود نیست.",
+			"206": "آپلود به دلایل امنیتی متوقف شد. فایل محتوی اطلاعات HTML است.",
+			"207": "فایل آپلود شده به \"{name}\" تغییر نام یافت.",
+			"300": "انتقال فایل‌(ها) شکست خورد.",
+			"301": "کپی فایل‌(ها) شکست خورد.",
+			"302": "حذف فایل‌(ها) شکست خورد.",
+			"500": "مرورگر فایل به دلایل امنیتی غیر فعال است. لطفا با مدیر سامانه تماس بگیرید تا تنظیمات این بخش را بررسی نماید.",
+			"501": "پشتیبانی از تصاویر کوچک غیرفعال شده است"
+		},
+		"deleteFilePermissions": "حذف فایل‌ها در این پوشه مجاز نیست.",
+		"fileInvalidCharacters": "نام فایل نباید شامل این کاراکترها باشد: {disallowedCharacters}",
+		"fileNameNotEmpty": "نام فایل نمی‌تواند خالی باشد.",
+		"folderInvalidCharacters": "نام پوشه نباید شامل این کاراکترها باشد: {disallowedCharacters}",
+		"incorrectExtension": "پسوند فایل برای این پوشه مجاز نیست.",
+		"missingFile": "فایل درخواست شده دی�9�F�!i_lex��c��!f��(u9��E�d��%ە�ޑn������^0������5����X���=����Ss�7���[8r	08�0S�|�GkҏfQa�kG��oÏ$�y�6Z��x���d�"�b�5ro�h,1�>��*A�C)�P��s!���'���8�]��i��O����J=�8jXZ�ue��;�JNC��z�}��s� ���F������nR�sZ��-��᝙�<�1�%��Z�N�C�dob����`�U�2�����0J-�ڻ� y���,��du &���.��-7+�`������h4+J�}��V�4� �HJ�H{9�v3��}ݑ�{(&K�	�u���b��;��zqŋ>�;��ƫ�I��_I�dH�:Xc�wu�^,7�3�,��x1���O�=��_��|��w��?��k4/�-a��Szv�%Z�\l�^��?�_���m2N&�����)��J�l�%�����'�l�I��ϋ�)��#L�b�_��4
+[G��a�`Da�;���0��Z�/A�n��Ppp[s&�P�L,T����%����	��sP�%Q� ^	Ck�c]���N���==w��Q�(����H�}Z�m��~��)�i��
+îNh��Uh�ِSK�"�{n�i$����"�ϋ^<?F���~��������$��q���AC�M����}�s�W͛AHX���Bʴ�������1\�Rq�;��s��JZW�M��J�e��k���V�Yu7L�'A7`�7�'�۾���v���3�']��:{�;��.��~��y���rqM�`ZDm0��!л��=M9��v$ 馡�(�}�d���ɉ��G3�9��?8�}g��R~��W1� A�X��0����%�<���'k��I!���V����UA�ڪ�7�1��Jpr�ಗ7X��N��Ŭ1�3��ޜ�X���D�b��93� 7ɰ��K]��f6����9�2k���'�!��Z3��dv:O�F+�li�kW��&p���I��]��Or�2���r�BS�&}j�{���/Kh�.�o���,]�A�_~���Э]]��E�J�-����U�ʍ�]��Ǳ��'Θd�L܋���a��u���h��T��� Ǉ�;?�Mvށ�/�uX����ƹ����m+-A���T�6�c�k� �Oh��ޖdk=_~�� %*T�� �ǜ���@��mvR&xI,*�s��|\��+��n��k!�:�T�q���deJ*w�Gؓ !��`�o�ޜ��[�7��A��,o{���E�ݱCtW��	�X��3s?<�w��{>
+�u����yNT4��GB�7#���������P���ۉ�q�mٰs�=�'A������r��ޮi�Qj�Ip*)��MΪD`����r�?!ץN�3^$��'jC��:��]޶*|�\�+{L�6�=�^��>�a�X���V<	�r.��.�|�gQ���K@O=Ǡ�fb�{�⭦R�dZ�[���*"�;1���Z�t?n,,"1��WW���X7�,����>� z��"հ|N�ի�m�A/o�W�}��19�9�b�� ��S�%�&������5���Z��ƣdKXڀ���+�"�N�H����/uj�܀�R����G�z�`{�8[��ےCn�rv+7��DJ'� ��5ɴC厓ђm��I ���H��}]� �6W���|��U�P��oO�p���H]��m�B�r�`�v|~�Ɲaf�͔�����ik�7��*aK�\%5s%�x}!7`۝-�ۗ�Å�H�q����5Կ빪�dW@(ﹰ���r�$�������	h�ϰv���X�ٷi�Rh��L� ��*��Ѿ��1��`Q�>��`y+�� 3��IJm�p�Z�*Ռ��]�'�S�2 Q:���;����kr�zc�| ��u�1�k�=U"o;��\�ת�ܘ��k�|�ޙ��npM�<8��ڱ��+Y���k�}��3+����%8�/.�v���I;��z��=�"�����7!�	�n��J��@�_;�s#��
+��xc���}��ɹe3�A�@Z{�`c��9�$.��vi�鏩=*����0�������Q��YU5iޒ�}q���nW�W�m@Hp��m�!qX��?��a~��h�'˖P�s�m�|�h�>`�VqvKB�I㒦߶��@�nn�:z]z���K�u�!j�VX�����K�ӂ�Wk\�43�*��zd����TH��ԩ˾V�y�a�8Bjĝ���y���Ⱦo}��;u��&�?am��\�'?�r>�f�9� �Rx��1�OVb��+B�n;@>�����S����*:1!1���x�sږ�S�0�o�̖���"m��D���go�����"`��w�"5��]$s���b^mCJ�����S`?���U�Y�������	�B����j����@��	3��nR,hք2u�%S<���AQPH�A��\����V�Kon�p;��	�!KR��U���.cF�/�D��5���f�P��@���(O$63�3WYXD��tY��* �u�![��,U�F����ێ��{�:Ѕ��Co�v߹�:$�0�=Or۹ǀ�2q6��X�r�#�y�L<�@�3���d�����~#������۶5p��KOd���z��U�����B�'�=KyP@�y�M}�LHʴ7�uͤ�S��u�)��&���������[2��J��#ur+�nY�O�����t��4ޱ�y��#��\X�j5�� R��I��/P%���k�p/%���=�茶<�|ʑ���ɆDd�O�V�m؄�)�rR�׎m^�{K}�L�6�㷩���~p�"�qU�u���q�+�J*՝S�u-�1���[N!��>b�{���M$'X�L�q�/��bc��ύ;Zm��C���̽94k��M4߰b�8�ɉ�VM���4L΃z�avMU���k�V���^���A�v�uos��!\�KK_.�JH��z�V{[}�^�`x�!��z$�����G_P�np謁w�.5��F��[��ܑr�}����%	q�Aڔ�x	M骢|ٟ��o��rN#lm:X������6���zr�.~	+�5��
+O�Ya��Z&#��귘Zy���3�|
+�{u���&˾|G[D#Ȳ,�{�Gĥ���dX�L��p�m���o��?�A�"���]�%+��z��ΚgȌ%��$��{��%�'�l,1�_+PQ�e8�-9p��5H��w��䯳?�S��O!�!%���8�U���=H�Vt���cn��@��.@�"��W���ʌ�i��-ւ?����}s����d�NX���C�Z�5R��ϲ�J��Ρ]}���d����u�Tޱ��jpԧ��s�^��g��C^D^�Ǘ�p�Q�R�����<��^��s܁^����a�s��V��D�T`S��%�>[bZŬ8?��'�D|��M5|vn�[Q�'���&S�֢j!�����%�t,�8��ϧa���n���\���q�kz(�m���uD��,������=:�g�"�&"�GMG�Ӻ�{��h�$��n�<��뀈��ꨎ���ݰo*��L�P��>��k�b�P!*wE�	a8�8���������]�����]P�;͢�\n��U�9>^_��b̯G�N;������O��e
+o![�?��x��Vd�3����W_�\�o'QO�}��Y�q�ￂpT��5|d;ը��W>�[�4��8��k�5k�	�?t?�;H�U�Wf+Ȋ��)j�(���[z.4F�R�$v���*Й��L<ѴIE�$+G�mݔm	\�Yp����W.�|5ȶUf$��q�)�t�_4]*��l��ₔ�0 ��	� ��_�b8�$.i�,&�a�9Y4}�*<���긁�;�r|K�2���5dl��X���d��V+K��͞&��TT�M�e6S��
+[r���s/)�j�}���o���2�x�.�j�PCj���x6�hnt9��N;�M`��!���0��4���--G�f���,��j^e[Lg�����x�����q���bk&�@y����P���Hs`�ٗ�.�S� ������6"�{_ cO������o'ѾO�m�&G�~�9h��yS��j�.0��TS�͋��+�-��� � ���vGsB���U��kx�n���E�`c��oF���R���{����j�4��H-8���7���z6L����a������'�^[��1��㵞~A�F�,��^8\�m��#xa%W�B'�Xz���g"iM�*q�a �xd:կ��w�ZsZ���O�iF1j�S[GgV�ҽ���t�����a-���x�K�r���u�W�Q$�����z�:|�"D��*tN}|[ �0Z.���ʩ��
+9��7  v�w����i����������������w�������w���t���������������������w������zw�Yjjɺ�ʼ���ʺ�˹˪��ɺ������w��w��ș������������v|���������i      �       	�     ��
+    ���   � ���   �����������   �v�ʹ  v���    f��� �v���    ����                         �$BvFdD(4�Q?��a��q��D�,Wp�뮹۾mka�J���z��/~��T�T��T#5귳ߚl�t&@�Й�YtoP*�(A'|OfH	Z�mp=MƋ1���2�r��`��P}�Ik�+,[���i�J����H�0�u͔�d~��d�b����Ȧ���)X�S=f�����6{Qԗ��/��Z0g!k�3��)F���4�BZ��v>��!��x��`�gZX��31�im��+ r���Uz5C]�.V�E��xR��L�0��W��[a
+Yط:�(����f�q)��n!�?/��/�0��/��f�^����~5 �}�p�0�	 ��*k8�G�I'��i���HM�/فA�윜�"�kP	g����T�bFU�w��+����U�b��p�հ<y�)0��A��Q�ַ���L
+�h3�����F.��iK����NKݕCd"�l0�ΐ��Q91Qq2���*Pz�q<O�hZz�q8�b`�a�,�v>X7���'��߁�����r�b�x��;4M���Xy�⻼�V�8��i��YN�~3d�3����
+9ۄY�m���v��ڻ~��K���-�P��۪y)$R[�5�\f���d�����l#>i 
+�(ɀK�Dd��XF�>�

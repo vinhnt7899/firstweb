@@ -1,0 +1,221 @@
+{
+	"appTitle": "CKFinder",
+	"dir": "ltr",
+	"langCode": "fi",
+	"common": {
+		"abort": "KeskeytÃ¤",
+		"cancel": "Peruuta",
+		"choose": "Valitse",
+		"close": "Sulje",
+		"copy": "Kopioi",
+		"delete": "Poista",
+		"download": "Lataa palvelimelta",
+		"edit": "Muokkaa",
+		"maximize": "Suurenna",
+		"messageTitle": "Ilmoitus",
+		"minimize": "PienennÃ¤",
+		"move": "SiirrÃ¤",
+		"newNameDialogTitle": "Uusi nimi",
+		"ok": "OK",
+		"pleaseWait": "Odota...",
+		"rememberDecision": "Muista valintani",
+		"rename": "UudelleennimeÃ¤",
+		"showMore": "NÃ¤ytÃ¤ lisÃ¤Ã¤",
+		"skip": "Ohita",
+		"upload": "Lataa palvelimelle",
+		"view": "NÃ¤ytÃ¤"
+	},
+	"units": {
+		"dateFormat": "dd-mm-yyyy HH:MM",
+		"dateAmPm": [
+			"AM",
+			"PM"
+		],
+		"kb": "{size} kt",
+		"mb": "{size} Mt",
+		"gb": "{size} Gt",
+		"sizePerSecond": "{size}/s",
+		"pixelShort": "px"
+	},
+	"files": {
+		"autoRename": "NimeÃ¤ uudelleen automaattisesti",
+		"countMany": "{count} tiedostoa",
+		"countOne": "1 tiedosto",
+		"deleteConfirmation": "Haluatko varmasti poistaa {count} tiedostoa?",
+		"fileDeleteConfirmation": "Haluatko varmasti poistaa tiedoston \"{name}\"?",
+		"fileRenameExtensionConfirmation": "Haluatko varmasti muuttaa tiedostotarkennetta? Tiedosto voi muuttua kÃ¤yttÃ¶kelvottomaksi.",
+		"fileRenameLabel": "Kirjoita uusi tiedostonimi: ",
+		"filesPaneTitle": "Tiedostot",
+		"filesRefresh": "PÃ¤ivitetÃ¤Ã¤n tiedostot",
+		"filterPlaceholder": "Suodata",
+		"gettingFileData": "Haetaan tiedoston tiedot.",
+		"overwrite": "Korvaa",
+		"loadingFilesPane": {
+			"title": "Ladataan...",
+			"text": "Tiedostojen lataus kÃ¤ynnissÃ¤."
+		},
+		"emptyFilesPane": {
+			"title": "Kansio on tyhjÃ¤.",
+			"text": "KÃ¤ytÃ¤ <strong>Lataa palvelimelle</strong> -painiketta tai <strong>raahaa ja pudota</strong> tiedostot tÃ¤nne."
+		},
+		"filterFilesEmpty": {
+			"title": "Ei tuloksia.",
+			"text": "YritÃ¤ uudelleen kÃ¤yttÃ¤en toista hakusuodatinta."
+		}
+	},
+	"folders": {
+		"deleteConfirmation": "Haluatko varmasti poistaa kansion \"{name}\"?",
+		"destinationFolder": "Kohdekansio",
+		"newNameLabel": "Kirjoita uuden kansion nimi: ",
+		"newSubfolder": "Uusi alikansio",
+		"renameDialogTitle": "UudelleennimeÃ¤ kansio",
+		"treeTitle": "Kansiorakenne"
+	},
+	"copy": {
+		"dropMenuItem": "Kopioi tÃ¤hÃ¤n",
+		"errorDialogTitle": "Tiedostot, joita ei voitu kopioida:",
+		"manyFilesDialogTitle": "Kopioi {count} tiedostoa...",
+		"manyFilesWait": "Kopioidaan {count} tiedostoa.",
+		"oneFileDialogTitle": "Kopioi tiedosto...",
+		"oneFileWait": "Tiedostoa kopioidaan.",
+		"operationLabel": "Tiedostoja kopioidaan.",
+		"operationSummary": "{count} tiedostoa kopioitu."
+	},
+	"move": {
+		"dropMenuItem": "SiirrÃ¤ tÃ¤hÃ¤n",
+		"errorDialogTitle": "Tiedostot, joita ei voitu siirtÃ¤Ã¤:",
+		"manyFilesDialogTitle": "SiirrÃ¤ {count} tiedostoa...",
+		"manyFilesWait": "SiirretÃ¤Ã¤n {count} tiedostoa.",
+		"oneFileDialogTitle": "SiirrÃ¤ tiedosto...",
+		"oneFileWait": "Tiedostoa siirretÃ¤Ã¤n.",
+		"operationLabel": "Tiedostoja siirretÃ¤Ã¤n.",
+		"operationSummary": "{count} tiedostoa siirretty."
+	},
+	"upload": {
+		"addFiles": "LisÃ¤Ã¤ tiedostoja",
+		"bytesCountProgress": "({bytesUploaded} / {bytesTotal})",
+		"details": "Tarkemmat tiedot",
+		"filesCountProgress": "{filesUploaded} / {filesTotal}",
+		"progressLabel": "Lataaminen palvelimelle kÃ¤ynnissÃ¤...",
+		"progressMessage": "Ladataan...",
+		"selectFileLabel": "Valitse ladattava tiedosto",
+		"selectFiles": "Valitse ladattavat tiedostot",
+		"success": "Lataus valmis!",
+		"summary": "Ladatut tiedostot: {count}"
+	},
+	"settings": {
+		"display": "NÃ¤ytÃ¤:",
+		"displayDate": "PÃ¤ivÃ¤mÃ¤Ã¤rÃ¤",
+		"displayName": "Tiedostonimi",
+		"displaySize": "Tiedostokoko",
+		"sortAscending": "Nouseva",
+		"sortBy": "JÃ¤rjestÃ¤",
+		"sortByOrder": "JÃ¤rjestys",
+		"sortDescending": "Laskeva",
+		"thumbnailSize": "Esikatselukuvan koko",
+		"title": "Asetukset",
+		"viewType": "NÃ¤yttÃ¶tyyppi",
+		"viewTypeCompact": "Tiedostonimi",
+		"viewTypeList": "Tiedot",
+		"viewTypeThumbnails": "Esikatselukuvat"
+	},
+	"errors": {
+		"codes": {
+			"10": "Virheellinen komento.",
+			"11": "PyynnÃ¶n resurssityyppi on mÃ¤Ã¤rittelemÃ¤ttÃ¤.",
+			"12": "PyynnÃ¶n resurssityyppi on virheellinen.",
+			"13": "Asetustiedosto on virheellinen.",
+			"14": "LisÃ¤osa on virheellinen: {pluginName}.",
+			"102": "Virheellinen tiedosto- tai kansionimi.",
+			"103": "Oikeutesi eivÃ¤t riitÃ¤ pyynnÃ¶n suorittamiseen.",
+			"104": "Tiedosto-oikeudet eivÃ¤t riitÃ¤ pyynnÃ¶n suorittamiseen.",
+			"105": "Virheellinen tiedostotarkenne.",
+			"109": "Virheellinen pyyntÃ¶.",
+			"110": "Tuntematon virhe.",
+			"111": "PyyntÃ¶Ã¤ ei voitu suorittaa tiedoston koon vuoksi.",
+			"115": "Samanniminen tiedosto tai kansio on jo olemassa.",
+			"116": "Kansiota ei lÃ¶ydy. YritÃ¤ uudelleen kansiopÃ¤ivityksen jÃ¤lkeen.",
+			"117": "Tiedostoa ei lÃ¶ydy. YritÃ¤ uudelleen kansiopÃ¤ivityksen jÃ¤lkeen.",
+			"118": "LÃ¤hde- ja kohdekansio on sama!",
+			"201": "Samanniminen tiedosto on jo olemassa. Palvelimelle ladattu tiedosto on nimetty: \"{name}\".",
+			"202": "Virheellinen tiedosto.",
+			"203": "Virheellinen tiedosto. Tiedostokoko on liian suuri.",
+			"204": "Palvelimelle ladattu tiedosto on vioittunut.",
+			"205": "VÃ¤liaikaishakemistoa ei ole mÃ¤Ã¤ritetty palvelimelle lataamista varten.",
+			"206": "Palvelimelle lataaminen on peruttu turvallisuussyistÃ¤. Tiedosto sisÃ¤ltÃ¤Ã¤ HTML-tyylistÃ¤ dataa.",
+			"207": "Palvelimelle ladattu tiedosto on  nimetty: \"{name}\".",
+			"300": "Tiedostosiirto epÃ¤onnistui.",
+			"301": "Tiedostokopiointi epÃ¤onnistui.",
+			"302": "Tiedoston tai tiedostojen poisto ei onnistunut.",
+			"500": "Tiedostoselain on kytketty pois kÃ¤ytÃ¶stÃ¤ turvallisuussyistÃ¤. PyydÃ¤ pÃ¤Ã¤kÃ¤yttÃ¤jÃ¤Ã¤ tarkastamaan CKFinderin asetustiedosto.",
+			"501": "Esikatselukuvien tuki on kytketty pois toiminnasta."
+		},
+		"deleteFilePermissions": "TÃ¤stÃ¤ kansiosta ei voi poistaa tiedostoja.",
+		"fileInvalidCharacters": "Tiedostonimi ei voi sisÃ¤ltÃ¤Ã¤ seuraavia merkkejÃ¤: {disallowedCharacters}",
+		"fileNameNotEmpty": "Tiedoston nimi ei voi olla tyhjÃ¤.",
+		"folderInvalidCharacters": "Kansionimi ei voi sisÃ¤ltÃ¤Ã¤ seuraavia merkkejÃ¤: {disallowedCharacters}",
+		"incorrectExtension": "Tiedostotarkenne ei ole sallittu valitussa kansiossa.",
+		"missingFile": "Tiedostoa ei enÃ¤Ã¤ lÃ¶ydy.",
+		"missingFolder": "Kansiota ei enÃ¤Ã¤ lÃ¶ydy.",
+		"noUploadFolderSelected": "Valitse kansio ennen palvelimelle lataamista.",
+		"operationCompleted": "Toiminnon suorittamisessa ilmeni virheitÃ¤.",
+		"renameFilePermissions": "Tiedostojen nimeÃ¤minen tÃ¤ssÃ¤ kansiossa ei ole sallittu.",
+		"unknown": "PyyntÃ¶Ã¤ ei voitu suorittaa. (Virhe {number})",
+		"unknownUploadError": "Tiedoston siirrossa tapahtui virhe.",
+		"uploadErrors": "Latauksessa ilmeni virheitÃ¤.",
+		"uploadPermissions": "Tiedoston lataaminen palvelimelle evÃ¤tty."
+	},
+	"chooseResizedImage": {
+		"title": "Valitse eri koko",
+		"originalSize": "AlkuperÃ¤inen koko",
+		"sizes": {
+			"custom": "MÃ¤Ã¤ritÃ¤ koko",
+			"large": "Suuri",
+			"max": "Suurin",
+			"medium": "Keskikoko",
+			"small": "Pieni"
+		}
+	},
+	"editImage": {
+		"adjust": "Muokkaa",
+		"apply": "KÃ¤ytÃ¤",
+		"confirmExit": "Haluatko varmasti poistua? Muutoksia ei ole tallennettu.",
+		"crop": "Rajaa",
+		"downloadAction": "Ladataan alkuperÃ¤istÃ¤ kuvaa.",
+		"keepAspectRatio": "SÃ¤ilytÃ¤ kuvasuhde",
+		"loading": "Ladataan kuvaa",
+		"presets": "Esiasetukset",
+		"reset": "Palauta alkuperÃ¤inen",
+		"resize": "Muuta kokoa",
+		"rotate": "KierrÃ¤",
+		"rotateAntiClockwise": "90 astetta vasemmalle",
+		"rotateClockwise": "90 astetta oikealle",
+		"save": "Tallenna",
+		"saveDialogFileExists": "Kansiossa on jo samanniminen tiedosto.",
+		"saveDialogOverwrite": "Korvaa tiedosto",
+		"saveDialogSaveAs": "Tallenna nimellÃ¤:",
+		"saveDialogTitle": "Tallenna muutokset",
+		"title": "Muokkaa kuvaa",
+		"transformationAction": "Otetaan muutokset kÃ¤yttÃ¶Ã¶n.",
+		"uploadAction": "Ladataan muokattu kuva palvelimelle.",
+		"filters": {
+			"brightness": "Kirkkaus",
+			"clip": "Leikkaa",
+			"contrast": "Kontrasti",
+			"exposure": "Valotus",
+			"gamma": "Gamma",
+			"hue": "VÃ¤risÃ¤vy",
+			"noise": "Kohina",
+			"saturation": "VÃ¤rien voimakkuus",
+			"sepia": "Seepia",
+			"sharpen": "Tarkenna",
+			"stackBlur": "Sumenna",
+			"vibrance": "Vibrance"
+		},
+		"pr9ŒQPù¥×WN]r ¥ï€Ö'ç¸QÑj{d-àr3—†ò1xµëúF"ù,5„İöOØŞó	¥d3B¡`y/vú[j~!™ëS—©€ñ~Æ"âX°{s¦×°ú+ú”%¢Î|×ˆ*Æ;P5?¹Ş‡¸&œ·|œ XS»gÛ&¥Æ˜BpÇxêNëwõHîAË¬´3oÚ½;zækSã>ÁŸHŒ¼øá>#NjpM™]TcUD½~°‹HvVÄRñºˆ5Í"_œtç#†Í.aZpæ)o E„D’Ça7ò›Eì²èt‰Á`›&ğ4êPc*µk3­µ†×=0;qy3sÌÃî÷T¡› ˜Q$€|t°æ3 "Î™ÔL˜GÛõ·éæóNg\ÿëÓs[c#aâÎ_zŠ+¢]{o§wˆ´Ïöt3UŠªÒ~È_ ÅÏ´i0dØ`´ Ûï~,êÜò¡ Çn(Æ‚xÔ†’íå=§Fë—Øoy¹Ğ{sò
+juª¬i—Ro^R;MÏ7Ì¤Í}¾q"¢]j&™üÙ÷Û²Tz·ÄMª6Œ¸¢›ºÅ³péSª®CXØñºl¶×r‹g3àºmÂ/,ƒoRÒU÷ÃjS­q¡g^àåù6w™o÷öuú/³îìÛFb×†K„¬İË>öö·ºy7Ë.¦Œ;q`ş1,PègI±?YL1¸¼‘‡7jÔî%ÈZ[<¤‘ÆbÄ?v¬YKÆÀ<e
+0#6üj×±`Hş6SGkCˆL“gùöß$$Çÿ+9&ñPÓ0^kêv42}P2Úš{>óJùt,ÚG2°À+ËïCRDÛ„@Og‹@$%ÖB.YÂQúñœ5¾U·k°*;vÕd@@¼ÓEâ1‹‹;X7>†k£•Ûo‹²¦×Ÿ}ó‹ñ“è'Â	NáôåÎhşÄ˜¸¤«Nû™ê{’ŒùXÍ˜ˆÊÛ‹3Y€ÁaÄ×‡B©ÓÏz™¨7ğw
+"k²YºÍË=à½%¿(,d”…¹Q›SõÅ„òÿ›F,§õ‹´TË€D<Rb>ªaB;M>}ÁÌ0F'Û`ÕâXã;ì$GNÊ­6ÕzÃÛ­ƒŠÙİ[Ìº!"W.Cr­ŠNqIH¨È½BámºË«±y RŸœ¡¨SD×ªxj	ëûÔŸ›ô§¶…u×]œk\BuÛôxïöÉìRßÖÈA•`gHû§âc<Å€ã³‰—¢¶*›ô`½mbï¾@¼Uß³e¸ë©Øo¦±Å¬†rµ ­‹ÜñìWÑJï	êJWº..éèÓjsè(·ìRæ$ÍMğäÅ,
+<üNvB5p1ôpó›.£[:ur¢û,²+Âcm~† ×a\„nÒ>ªçh{ƒÊäŞ“I¾“:ÂÒY8K±Ç‰¼bfYX;m½ç/
+Ó|Hğ?Õı¶“ÚùªïÆR5¬Ikî¯yì°…úŠ°¡vz‚ã®¶…ÎçR”ğŒ»Ë kgoø¬Ûå}E§³M¸ËÃÁ2hnŞìåü£‚ï¬ ,`@oÅÆÚâ—ÊÁâëÍõå»dèÖp/Å=ÙúÂòó¾ª‘û"Éoëı™DW‡I¢Dá"I‰#¿%†øm}b·îÍŸÔNèÒPĞšKÉ‚É!ÊO‘oâ 2Sõš2ã>ºTÉƒZ`=l@'IÅ¸â–áLlòß+ ±T<9Õ	J³d£”YÓB?°Ê?TA]/H:¯YÑ‰gôEãâµş¹EùÉË)’_ÒóÙÑlˆÿÏl§>@L>kª)Æ¾ø©Í’àÿ!nXE{1[¼÷k~Ef#XvÄJôL'ÁéôéĞW¹¥Û¥Š×„(fª+ü„Õ}WD›»óS=¼ºââNíw¦ëq-µ«‰åpp~”ë˜S÷9lzğo2<ÎÅ? øg«môÕ ²ßŠ?wIy©~Ïg`E-œ¬ÅÜoTø®7îVµ¥‹ÒaÒ¤œ}v%»¯0+­2Ş±?¿‚ GiyÔ_´—H ]qAÿ”â§
+‚YO™BM;ıÕå€ÀÉ2wfÛH;¼éÙ%¿ìÜ\ê"X®¸Ä‚K‚˜ñgË:u;o±£=>ù¦Åó£úXÙø‡!İŸÖA§ÖyuÉal$—özÑ¿Øÿ+Ö„×«É:H ¤ßk¦ng÷C§ÀBá9‡öş;¸¬´(cìxüúË¯ÄódÀßx×©±:Šh°â¥Ù`Œ´Ù‰ºÛƒ¹.Ÿ~)¤ÀoIñ¥g=Ÿô¦£GKN&ûN°d¤ïØt‰¼mLkk%æ9(6¹=§|Üà,àøˆˆ#Rj’ìñÈFdòY‘%h—=LÈªÇ•o%UŸ°Ó¬sÒ²BT0»~šö›£'íÁ|H>éVa‡bñ ûRl/¶ÍlàÇĞ¾©]Áb-q¾_›Òã_UoZÀ3¸	7ˆDßÑ8cd»§äK«v~…˜Ñù§³9À¢mÒZÒQq#	‹f; Yy‰0©Gş&$öJd(Ÿ£íRu·²9ÿ÷1-|3Çû~^ÇºxÒÇ3çZ—B3ğ½¤H‰,=`İÖ°¦ÂuÀûJûAãY¯L‚Üû$ı‰ó»

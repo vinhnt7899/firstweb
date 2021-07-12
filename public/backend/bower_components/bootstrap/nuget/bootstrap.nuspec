@@ -1,0 +1,53 @@
+[5] : register(c1);
+uniform float3x3 _umatrix_Stage1_c0 : register(c6);
+uniform float4 _uclamp_Stage1_c0_c0 : register(c9);
+static const uint _uTextureSampler_0_Stage1 = 0;
+uniform Texture2D<float4> textures2D[1] : register(t0);
+uniform SamplerState samplers2D[1] : register(s0);
+#ifdef ANGLE_ENABLE_LOOP_FLATTEN
+#define LOOP [loop]
+#define FLATTEN [flatten]
+#else
+#define LOOP
+#define FLATTEN
+#endif
+
+#define ATOMIC_COUNTER_ARRAY_STRIDE 4
+
+// Varyings
+static  float2 _vLocalCoord_Stage0 = {0, 0};
+
+static float4 gl_Color[1] =
+{
+    float4(0, 0, 0, 0)
+};
+
+cbuffer DriverConstants : register(b1)
+{
+    struct SamplerMetadata
+    {
+        int baseLevel;
+        int internalFormatBits;
+        int wrapModes;
+        int padding;
+        int4 intBorderColor;
+    };
+    SamplerMetadata samplerMetadata[1] : packoffset(c4);
+};
+
+#define GL_USES_FRAG_COLOR
+float4 gl_texture2D(uint samplerIndex, float2 t)
+{
+    return textures2D[samplerIndex].Sample(samplers2D[samplerIndex], float2(t.x, t.y));
+}
+
+float4 f_TextureEffect_Stage1_c0_c0_float4(in float4 __input, in float2 __coords)
+{
+float2 _inCoord2341 = __coords;
+float2 _subsetCoord2342 = {0, 0};
+(_subsetCoord2342.x = _inCoord2341.x);
+(_subsetCoord2342.y = _inCoord2341.y);
+float2 _clampedCoord2343 = {0, 0};
+(_clampedCoord2343.x = _subsetCoord2342.x);
+(_clampedCoord2343.y = clamp(_subsetCoord2342.y, _uclamp_Stage1_c0_c0.y, _uclamp_Stage1_c0_c0.w));
+float4 _textureColor2344 = gl_texture2D(_uTextureSampler_0_Stage1, _c
